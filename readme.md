@@ -13,9 +13,18 @@ https://github.com/victorgan/.vim.git
 Install:
 
 - Git
+- Emacs with Evil
+- Ruby
+
 - Matlab
+
 - Vim Settings
 - Bash settings
+- Emacs settings
+
+Projects folder:
+-
+
 
 See ubuntuProvision.sh
 
