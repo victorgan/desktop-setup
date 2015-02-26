@@ -9,22 +9,18 @@ https://github.com/victorgan/.vim.git
 
 ## Windows
 
-## Ubuntu
-Install:
-
+## Ubuntu 14.04
+Programs (See ubuntuProvision.sh):
 - Git
-- Emacs with Evil
+- Emacs
 - Ruby
-
 - Matlab
 
+Projects folder:
 - Vim Settings
 - Bash settings
-- Emacs settings
+- Emacs settings + extensions (Evil)
 
-Projects folder:
--
-
-
-See ubuntuProvision.sh
-
+Changes:
+- Create a shortcut for terminal (Drag in)
+- Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
