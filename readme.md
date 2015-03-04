@@ -24,3 +24,4 @@ Projects folder:
 Changes:
 - Create a shortcut for terminal (Drag in)
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
+- Create a shortcut for matlab
