@@ -10,7 +10,7 @@ https://github.com/victorgan/.vim.git
 ## Windows
 
 ## Ubuntu 14.04
-Programs (See ubuntuProvision.sh):
+Programs (See programs.sh):
 - Git
 - Emacs
 - Ruby
@@ -23,5 +23,9 @@ Projects folder:
 
 Changes:
 - Create a shortcut for terminal (Drag in)
+- remove 
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
+- Remove shortcuts for office programs
+- install matlab
+
 - Create a shortcut for matlab
