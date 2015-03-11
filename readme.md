@@ -10,22 +10,26 @@ https://github.com/victorgan/.vim.git
 ## Windows
 
 ## Ubuntu 14.04
+
+### Programs
 Programs (See programs.sh):
 - Git
 - Emacs
-- Ruby
-- Matlab
+- Vim
+- Matlab (manual)
 
-Projects folder:
-- Vim Settings
-- Bash settings
-- Emacs settings + extensions (Evil)
+### Matlab
+Copy over matlabunzipped
+Make sure entire folder (and subfolders) has read/write access for myself.
+sudo ./install
+create symbolic links
+
 
 Changes:
 - Create a shortcut for terminal (Drag in)
 - remove 
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 - Remove shortcuts for office programs
-- install matlab
+- Synced firefox
 
 - Create a shortcut for matlab
