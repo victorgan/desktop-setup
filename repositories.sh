@@ -42,7 +42,7 @@ PAPER_DIR="$PROJECT_DIR/papers/"
 declare -a GITHUB_PAPER_REPONAMES=("sun2014quantitative" "fragkiadaki2014grouping"
 "henriques2014high" "hosang2015what" "gritti2014kinect" "dollar2013edges"
 "rasmussen2006gaussian" "vedaldi2010vlfeat" "dollar2015toolbox"
-"maaten2008tsne" "maaten2013drtoolbox")
+"maaten2008tsne" "maaten2013drtoolbox" "corke2011robotics")
 for REPO_NAME in "${GITHUB_PAPER_REPONAMES[@]}"
 do
     echo "Github: Cloning " $REPO_NAME

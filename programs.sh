@@ -15,6 +15,9 @@ apt-get install vim -y > /dev/null
 echo "Install right click to terminal"
 sudo apt-get install nautilus-open-terminal
 
+echo "Install openssh-server: allow incoming ssh"
+sudo apt-get install openssh-server
+
 # Python
 # echo "Installing python-pip"
 # apt-get install python-pip -y > /dev/null
