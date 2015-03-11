@@ -17,6 +17,7 @@ Programs (See programs.sh):
 - Emacs
 - Vim
 - Matlab (manual)
+- Xournal (for handwritten notes)
 
 ### Matlab
 Copy over matlabunzipped
@@ -37,5 +38,7 @@ Changes:
 - Create ssh key for github
 - Clone desktop-setup (this repository)
 - Downloaded evil for emacs and put in ~/.emacs.d/evil
-
-
+- Install NVIDIA video card driver:
+  http://ubuntuforums.org/showthread.php?t=2263316
+- Change wallpaper, make it span all screens: appearance>look>span
+- Installing ROS: http://wiki.ros.org/indigo/Installation/Ubuntu

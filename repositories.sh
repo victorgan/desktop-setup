@@ -13,10 +13,10 @@ git-clone-if-needed()
      
     if [ ! -d $LOCALREPO_VC_DIR ]
     then
-        echo "Cloning.." $LOCAL_REPO
+        echo "Cloning.." $SOURCE_REPO
         git clone $SOURCE_REPO $LOCAL_REPO > /dev/null
     else
-        echo "Already exists. Pulling.." $LOCAL_REPO
+        echo "Already exists. Pulling.." $SOURCE_REPO
         cd $LOCAL_REPO
         git pull $SOURCE_REPO >/dev/null
         git status
@@ -30,7 +30,7 @@ GITHUB_PATH="git@github.com:victorgan/"
 PROJECT_DIR="$HOME/code/"
 
 # Clone projects from Github
-declare -a GITHUB_REPONAMES=("dotfiles" "desktop-setup" "research-log" "victorgan.github.io")
+declare -a GITHUB_REPONAMES=("dotfiles" "desktop-setup" "victorgan.github.io")
 for REPO_NAME in "${GITHUB_REPONAMES[@]}"
 do
     echo "Github: Cloning " $REPO_NAME
@@ -40,7 +40,9 @@ done
 # Clone paper repositories from Github
 PAPER_DIR="$PROJECT_DIR/papers/"
 declare -a GITHUB_PAPER_REPONAMES=("sun2014quantitative" "fragkiadaki2014grouping"
-"henriques2014high" "hosang2015what" "gritti2014kinect" "dollar2013edges")
+"henriques2014high" "hosang2015what" "gritti2014kinect" "dollar2013edges"
+"rasmussen2006gaussian" "vedaldi2010vlfeat" "dollar2015toolbox"
+"maaten2008tsne" "maaten2013drtoolbox")
 for REPO_NAME in "${GITHUB_PAPER_REPONAMES[@]}"
 do
     echo "Github: Cloning " $REPO_NAME
@@ -50,6 +52,7 @@ done
 # Clone my experiments from Github
 EXPERIMENTS_DIR="$PROJECT_DIR/experiments/"
 declare -a GITHUB_EXPERIMENT_REPONAMES=("rrt")
+# canwheel-wizard-of-oz from bitbucket
 for REPO_NAME in "${GITHUB_EXPERIMENT_REPONAMES[@]}"
 do
     echo "Github: Cloning " $REPO_NAME
