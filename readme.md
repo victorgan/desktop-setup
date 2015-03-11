@@ -32,6 +32,7 @@ Changes:
 - Remove shortcuts for office programs
 - Synced firefox
 - Firefox: perfernces > general > always ask me where to sync files
+- Firefox: perfernces > advanced > general > uncheck smooth scrolling
 - Create a shortcut for matlab
 - Create ssh key for github
 - Clone desktop-setup (this repository)
