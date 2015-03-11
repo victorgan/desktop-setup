@@ -31,5 +31,6 @@ Changes:
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 - Remove shortcuts for office programs
 - Synced firefox
-
 - Create a shortcut for matlab
+- Create ssh key for github
+- Clone desktop-setup (this repository)
