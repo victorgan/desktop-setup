@@ -31,6 +31,10 @@ Changes:
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 - Remove shortcuts for office programs
 - Synced firefox
+- Firefox: perfernces > general > always ask me where to sync files
 - Create a shortcut for matlab
 - Create ssh key for github
 - Clone desktop-setup (this repository)
+- Downloaded evil for emacs and put in ~/.emacs.d/evil
+
+

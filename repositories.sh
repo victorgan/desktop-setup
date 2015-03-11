@@ -22,22 +22,37 @@ git-clone-if-needed()
     fi 
 }
 
-
 # --------------------------------------------------
-# Variables
+# Github repositories
 # --------------------------------------------------
-PROJECT_DIR="$HOME/code/"
 GITHUB_PATH="git@github.com:victorgan/"
+PROJECT_DIR="$HOME/code/"
 
-# --------------------------------------------------
-# Procedure
-# --------------------------------------------------
 # Clone projects from Github
-declare -a GITHUB_REPONAMES=("dotfiles" "desktop-setup")
+declare -a GITHUB_REPONAMES=("dotfiles" "desktop-setup" "research-log" "victorgan.github.io")
 for REPO_NAME in "${GITHUB_REPONAMES[@]}"
 do
     echo "Github: Cloning " $REPO_NAME
     git-clone-if-needed $GITHUB_PATH$REPO_NAME".git" $PROJECT_DIR$REPO_NAME
+done
+
+# Clone paper repositories from Github
+PAPER_DIR="$PROJECT_DIR/papers/"
+declare -a GITHUB_REPONAMES=("sun2014quantitative" "fragkiadaki2014grouping"
+"henriques2014high" "hosang2015what" "gritti2014kinect")
+for REPO_NAME in "${GITHUB_REPONAMES[@]}"
+do
+    echo "Github: Cloning " $REPO_NAME
+    git-clone-if-needed $GITHUB_PATH$REPO_NAME".git" $PAPER_DIR$REPO_NAME
+done
+
+# Clone my experiments from Github
+EXPERIMENTS_DIR="$PROJECT_DIR/experiments/"
+declare -a GITHUB_REPONAMES=("rrt")
+for REPO_NAME in "${GITHUB_REPONAMES[@]}"
+do
+    echo "Github: Cloning " $REPO_NAME
+    git-clone-if-needed $GITHUB_PATH$REPO_NAME".git" $EXPERIMENTS_DIR$REPO_NAME
 done
 
 # # Vim

@@ -12,10 +12,13 @@ apt-get install emacs -y > /dev/null
 echo "Installing Vim"
 apt-get install vim -y > /dev/null 
 
-# Python
-echo "Installing python-pip"
-apt-get install python-pip -y > /dev/null
+echo "Install right click to terminal"
+sudo apt-get install nautilus-open-terminal
 
-echo "Installing ipython notebook"
-pip install "ipython[notebook]"
+# Python
+# echo "Installing python-pip"
+# apt-get install python-pip -y > /dev/null
+# 
+# echo "Installing ipython notebook"
+# pip install "ipython[notebook]"
 
