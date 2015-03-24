@@ -1,30 +1,48 @@
 # Install programs.
+# To run, 
+# sudo bash programs.sh
+
+# ----------------------------------------
+# Essentials
+# ----------------------------------------
 echo "Updating apt-get"
-# apt-get update > /dev/null 
-# apt-get upgrade > /dev/null 
+apt-get update -y # takes a while
+apt-get upgrade -y # takes a while
 
 echo "Installing Git"
-apt-get install git -y > /dev/null # -y yes to all, outputs stream to /dev/null 
-
-echo "Installing Emacs"
-apt-get install emacs -y > /dev/null 
+apt-get install git -y 
+# -y yes to all, > /dev/null streams to black hole for clean terminal
 
 echo "Installing Vim"
-apt-get install vim -y > /dev/null 
+apt-get install vim -y
 
+echo "Installing Emacs"
+apt-get install emacs -y 
+
+echo "Install openssh-server to allow incoming ssh"
+sudo apt-get install openssh-server -y
+
+# ----------------------------------------
+# GUI Stuff
+# ----------------------------------------
 echo "Install right click to terminal"
-sudo apt-get install nautilus-open-terminal
+sudo apt-get install nautilus-open-terminal -y
 
-echo "Install openssh-server: allow incoming ssh"
-sudo apt-get install openssh-server
+echo "Install Git GUI"
+sudo apt-get install gitk -y 
 
-# Python
+# ----------------------------------------
+# Python Stack
+# ----------------------------------------
 echo "Installing python-pip"
-apt-get install python-pip -y > /dev/null
+apt-get install python-pip -y 
  
 echo "Installing ipython notebook"
 pip install "ipython[notebook]"
 
 echo "Installing Scipy stack"
-sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose -y 
 
+# ----------------------------------------
+# ROS + OpenNI, getting Asus Xtion Pro Live working: https://gist.github.com/victorgan/cbf7e0216e802844198a
+# ----------------------------------------
