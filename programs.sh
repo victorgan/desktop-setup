@@ -19,9 +19,12 @@ echo "Install openssh-server: allow incoming ssh"
 sudo apt-get install openssh-server
 
 # Python
-# echo "Installing python-pip"
-# apt-get install python-pip -y > /dev/null
-# 
-# echo "Installing ipython notebook"
-# pip install "ipython[notebook]"
+echo "Installing python-pip"
+apt-get install python-pip -y > /dev/null
+ 
+echo "Installing ipython notebook"
+pip install "ipython[notebook]"
+
+echo "Installing Scipy stack"
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 

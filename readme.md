@@ -18,6 +18,7 @@ Programs (See programs.sh):
 - Vim
 - Matlab (manual)
 - Xournal (for handwritten notes)
+- Dropbox
 
 ### Matlab
 Copy over matlabunzipped
@@ -28,7 +29,6 @@ create symbolic links
 
 Changes:
 - Create a shortcut for terminal (Drag in)
-- remove 
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 - Remove shortcuts for office programs
 - Synced firefox
