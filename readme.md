@@ -42,3 +42,4 @@ Changes:
   http://ubuntuforums.org/showthread.php?t=2263316
 - Change wallpaper, make it span all screens: appearance>look>span
 - Installing ROS: http://wiki.ros.org/indigo/Installation/Ubuntu
+- List View in Nautilus: Edit>Preferences>View new folders using: List View
