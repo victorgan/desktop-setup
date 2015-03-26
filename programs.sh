@@ -6,8 +6,8 @@
 # Essentials
 # ----------------------------------------
 echo "Updating apt-get"
-apt-get update -y # takes a while
-apt-get upgrade -y # takes a while
+# apt-get update -y # takes a while
+# apt-get upgrade -y # takes a while
 
 echo "Installing Git"
 apt-get install git -y 
@@ -22,6 +22,7 @@ apt-get install emacs -y
 echo "Install openssh-server to allow incoming ssh"
 sudo apt-get install openssh-server -y
 
+
 # ----------------------------------------
 # GUI Stuff
 # ----------------------------------------
@@ -30,6 +31,13 @@ sudo apt-get install nautilus-open-terminal -y
 
 echo "Install Git GUI"
 sudo apt-get install gitk -y 
+sudo apt-get install git-gui -y 
+
+echo "Install KeepassX"
+sudo apt-get install keepassx -y
+
+echo "Install GVim"
+sudo apt-get install vim-gnome -y
 
 # ----------------------------------------
 # Python Stack
