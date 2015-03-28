@@ -31,11 +31,14 @@ Changes:
 - Create a shortcut for terminal (Drag in)
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 - Remove shortcuts for office programs
-- Synced firefox
-- Firefox: perfernces > general > always ask me where to sync files
+- Synced firefox: preferences > sync
+- Firefox: perfernces > general > always ask me where to save files
 - Firefox: perfernces > advanced > general > uncheck smooth scrolling
 - Create a shortcut for matlab
 - Create ssh key for github
+  ssh-keygen -t rsa -C "victorgan@gmail.com
+  eval "$(ssh-agent -s)"
+  ssh-add ~/.ssh/id_rsa
 - Clone desktop-setup (this repository)
 - Downloaded evil for emacs and put in ~/.emacs.d/evil
 - Install NVIDIA video card driver:
