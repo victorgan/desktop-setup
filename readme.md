@@ -30,7 +30,7 @@ create symbolic links
 Changes:
 - Create a shortcut for terminal (Drag in)
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
-- Remove shortcuts for office programs
+- Remove shortcuts for office programs and ubuntu software center
 - Synced firefox: preferences > sync
 - Firefox: perfernces > general > always ask me where to save files
 - Firefox: perfernces > advanced > general > uncheck smooth scrolling
