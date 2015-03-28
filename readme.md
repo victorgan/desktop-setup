@@ -28,15 +28,8 @@ create symbolic links
 
 
 Changes:
-- Create a shortcut for terminal (Drag in)
-- Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
-- Remove shortcuts for office programs and ubuntu software center
-- Synced firefox: preferences > sync, remove icons after sync
-- Firefox: perfernces > general > always ask me where to save files
-- Firefox: perfernces > advanced > general > uncheck smooth scrolling
-- Create a shortcut for matlab
 - Create ssh key for github: https://help.github.com/articles/generating-ssh-keys/
-  - ssh-keygen -t rsa -C "victorgan@gmail.com
+  - ssh-keygen -t rsa -C "victorgan@gmail.com"
   - eval "$(ssh-agent -s)"
   - ssh-add ~/.ssh/id_rsa
   - Add ssh kkey (copy from ~/.ssh/id_rsa.pub) https://github.com/settings/ssh
@@ -45,8 +38,19 @@ Changes:
   - mkdir ~/code
 - Clone desktop-setup (this repository): 
   - cd ~/code && git clone git@github.com:victorgan/desktop-setup.git
+- run: sudo bash ~/code/desktop-setup/programs.sh
+
+- Create a shortcut for terminal (Drag in)
+- Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
+- Remove shortcuts for office programs and ubuntu software center
+- Synced firefox: preferences > sync, remove icons after sync
+- Firefox: make gmail a web app (go to gmail, follow prompt)
+- Firefox: prefernces > general > always ask me where to save files
+- Firefox: prefernces > advanced > general > uncheck smooth scrolling
+- Create a shortcut for matlab
 - Downloaded evil for emacs and put in ~/.emacs.d/evil : http://www.emacswiki.org/emacs/Evil
 - Gedit: Edit > Preferences > Editor, uncheck "Create a backup of files before saving"
+- Change fonts in Ubuntu Tweak Tool to Droid Sans Mono 9 and Droid Sans 11
 
 Optional:
 - Download dropbox

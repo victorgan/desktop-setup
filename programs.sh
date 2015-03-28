@@ -39,6 +39,9 @@ sudo apt-get install keepassx -y
 echo "Install GVim"
 sudo apt-get install vim-gnome -y
 
+echo "Install Ubnutu Tweak"
+sudo apt-get install unity-tweak-tool -y
+
 # ----------------------------------------
 # Python Stack
 # ----------------------------------------
