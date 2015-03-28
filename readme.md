@@ -35,15 +35,23 @@ Changes:
 - Firefox: perfernces > general > always ask me where to save files
 - Firefox: perfernces > advanced > general > uncheck smooth scrolling
 - Create a shortcut for matlab
-- Create ssh key for github
+- Create ssh key for github: https://help.github.com/articles/generating-ssh-keys/
   ssh-keygen -t rsa -C "victorgan@gmail.com
   eval "$(ssh-agent -s)"
   ssh-add ~/.ssh/id_rsa
-- Clone desktop-setup (this repository)
-- Downloaded evil for emacs and put in ~/.emacs.d/evil
-- Install NVIDIA video card driver:
-  http://ubuntuforums.org/showthread.php?t=2263316
-- Change wallpaper, make it span all screens: appearance>look>span
-- Installing ROS: http://wiki.ros.org/indigo/Installation/Ubuntu
+  Add ssh kkey (copy from ~/.ssh/id_rsa.pub) https://github.com/settings/ssh
+  ssh -T git@github.com
+- Make ~/code/ directory
+  mkdir ~/code
+- Clone desktop-setup (this repository): 
+  cd ~/code && git clone git@github.com:victorgan/desktop-setup.git
+- Downloaded evil for emacs and put in ~/.emacs.d/evil : http://www.emacswiki.org/emacs/Evil
 - List View in Nautilus: Edit>Preferences>View new folders using: List View
 - Gedit: Edit > Preferences > Editor, uncheck "Create a backup of files before saving"
+
+- Change wallpaper, make it span all screens: appearance>look>span
+- Install Video Card
+  Install NVIDIA video card driver: http://ubuntuforums.org/showthread.php?t=2263316
+- Installing ROS: http://wiki.ros.org/indigo/Installation/Ubuntu
+
+
