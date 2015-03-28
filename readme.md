@@ -31,7 +31,7 @@ Changes:
 - Create a shortcut for terminal (Drag in)
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 - Remove shortcuts for office programs and ubuntu software center
-- Synced firefox: preferences > sync
+- Synced firefox: preferences > sync, remove icons after sync
 - Firefox: perfernces > general > always ask me where to save files
 - Firefox: perfernces > advanced > general > uncheck smooth scrolling
 - Create a shortcut for matlab
