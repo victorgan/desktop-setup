@@ -55,5 +55,15 @@ echo "Installing Scipy stack"
 sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose -y 
 
 # ----------------------------------------
+# Haskell Stack
+# ----------------------------------------
+echo "Installing Haskell"
+sudo apt-get install haskell-platform -y
+
+echo "Updating Cabal"
+cabal update && cabal install cabal-install -y
+
+
+# ----------------------------------------
 # ROS + OpenNI, getting Asus Xtion Pro Live working: https://gist.github.com/victorgan/cbf7e0216e802844198a
 # ----------------------------------------
