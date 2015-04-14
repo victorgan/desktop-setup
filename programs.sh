@@ -22,6 +22,10 @@ apt-get install emacs -y
 echo "Install openssh-server to allow incoming ssh"
 sudo apt-get install openssh-server -y
 
+echo "Install Latex"
+sudo apt-get install texlive-latex-base -y  # latex 
+sudo apt-get install texlive-xetex -y  # xelatex, for better fonts 
+
 
 # ----------------------------------------
 # GUI Stuff
@@ -63,6 +67,8 @@ sudo apt-get install haskell-platform -y
 echo "Updating Cabal"
 cabal update && cabal install cabal-install -y
 
+echo "Haskell Packages: hlint"
+cabal install hlint
 
 # ----------------------------------------
 # ROS + OpenNI, getting Asus Xtion Pro Live working: https://gist.github.com/victorgan/cbf7e0216e802844198a
