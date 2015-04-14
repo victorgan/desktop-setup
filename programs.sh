@@ -23,8 +23,9 @@ echo "Install openssh-server to allow incoming ssh"
 sudo apt-get install openssh-server -y
 
 echo "Install Latex"
-sudo apt-get install texlive-latex-base -y  # latex 
-sudo apt-get install texlive-xetex -y  # xelatex, for better fonts 
+sudo apt-get install texlive -y  # pdflatex file.tex
+sudo apt-get install texlive-xetex -y  # xelatex file.tex
+sudo apt-get install texlive-latex-extra -y  # for csquotes, enumitem
 
 
 # ----------------------------------------
@@ -65,7 +66,7 @@ echo "Installing Haskell"
 sudo apt-get install haskell-platform -y
 
 echo "Updating Cabal"
-cabal update && cabal install cabal-install -y
+cabal update && cabal install cabal-install
 
 echo "Haskell Packages: hlint"
 cabal install hlint
