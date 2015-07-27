@@ -74,6 +74,12 @@ Getting this repository cloned:
     - gVim
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 
+### Install NVIDIA Drivers
+https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia
+It should probably be installed already. 
+Go to: Additional Drivers 
+Select a proprietary driver
+
 ### Optional
 - Download dropbox
 - List View in Nautilus: Edit>Preferences>View new folders using: List View
