@@ -58,18 +58,3 @@ done
 #     echo "Github: Cloning " $REPO_NAME
 #     git-clone-if-needed $GITHUB_PATH$REPO_NAME".git" $EXPERIMENTS_DIR$REPO_NAME
 # done
-
-# # Vim
-# echo "Customizing Vim Settings"
-# git-clone-if-needed $GITHUB_PATH".vim.git" $HOME/.vim # copy repository
-# echo "source $HOME/.vim/vimrc" > $HOME/.vimrc               # point to repository
-# 
-# # Bash
-# echo "Customizing Bash Settings"
-# BASHRC_FILE="$HOME/.bashrc" 
-# BASH_COLORS="export TERM=xterm-256color" # add colors
-# if grep -q $BASH_COLORS $BASHRC_FILE; then
-#     echo ".bashrc already supports 256 colors" 
-# else
-#     echo "export TERM=xterm-256color" >> $HOME/.bashrc          
-# fi

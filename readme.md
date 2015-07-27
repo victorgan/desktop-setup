@@ -4,6 +4,7 @@ https://github.com/victorgan/desktop-setup.git
 
 Notes on setting up my desktop.
 
+
 ## Repositories Used
 https://github.com/victorgan/.vim.git
 
@@ -11,24 +12,24 @@ https://github.com/victorgan/.vim.git
 
 ## Ubuntu 14.04
 
-### Programs
-Programs (See programs.sh):
-- Git
-- Emacs
-- Vim
-- Matlab (manual)
-- Xournal (for handwritten notes)
-- Dropbox
+This is meant to capture any state changes from a fresh ubuntu install.
+I try and keep everything to its default whenever possible.
 
-### Matlab
-Copy over matlabunzipped
-Make sure entire folder (and subfolders) has read/write access for myself.
-sudo ./install
-create symbolic links
+- Created bootable USB
+    - in Ubuntu, run 'Startup Disk Creator'
+    - open ISO and select location of Ubuntu ISO
+    - plug in a USB and make it a startup disk
+- Restart the computer to reformat, plug in USB, boot from USB
+- Connect to Internet
+- format partition, mount on /
+- leave boot drive the same
+- do not enable auto-login
+- follow instructions until restart
+- connect to internet and install updates, restart
 
-
-### Instructions
+### Preliminary Instructions
 Getting this repository cloned:
+- install git: sudo apt-get install git
 - Create ssh key for github: https://help.github.com/articles/generating-ssh-keys/
   - ssh-keygen -t rsa -C "victorgan@gmail.com"
   - eval "$(ssh-agent -s)"
@@ -39,26 +40,43 @@ Getting this repository cloned:
   - mkdir ~/code
 - Clone desktop-setup (this repository): 
   - cd ~/code && git clone git@github.com:victorgan/desktop-setup.git
-- run: sudo bash ~/code/desktop-setup/programs.sh
 
-Program-specific
+### Basic Programs and Dotfile Settings
+- run: sudo bash ~/code/desktop-setup/programs.sh
+- install https://github.com/victorgan/dotfiles by downloading running
+  install.sh
+- download more repositories, which can be easily done from repositories.sh
+
+### Install ROS
+- https://gist.github.com/victorgan/cbf7e0216e802844198a
+- http://wiki.ros.org/indigo/Installation/Ubuntu
+
+### Matlab
+- Copy over matlabunzipped
+- Make sure entire folder (and subfolders) has read/write access for myself.
+- sudo ./install
+- create symbolic links
+- create a shortcut for matlab
+
+### Program-specific
 - Synced firefox: preferences > sync, remove icons after sync
 - Firefox: prefernces > general > always ask me where to save files
 - Firefox: prefernces > advanced > general > uncheck smooth scrolling
-- Create a shortcut for matlab
 - Downloaded evil for emacs and put in ~/.emacs.d/evil : http://www.emacswiki.org/emacs/Evil
 - Gedit: Edit > Preferences > Editor, uncheck "Create a backup of files before saving"
 
-Unity Desktop Changes:
+### Unity Desktop Changes:
 - Create a shortcut for terminal (Drag in)
-- Remove shortcuts for office programs and ubuntu software center
-- Change fonts in Ubuntu Tweak Tool to Droid Sans Mono 9 and Droid Sans 11
+- Remove amazon shortcut
+- Remove shortcuts for office programs
+- shortcuts to add:
+    - KeepassX
+    - gVim
 - Enable multiple workspaces (Appearance > behavior tab > enable workspaces)
 
-Optional:
+### Optional
 - Download dropbox
 - List View in Nautilus: Edit>Preferences>View new folders using: List View
-- Change wallpaper, make it span all screens: appearance>look>span
 - Install Video Card
   Install NVIDIA video card driver: http://ubuntuforums.org/showthread.php?t=2263316
-- Installing ROS: http://wiki.ros.org/indigo/Installation/Ubuntu
+- Installing ROS: 
