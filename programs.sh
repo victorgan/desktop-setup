@@ -23,10 +23,7 @@ echo "Install openssh-server to allow incoming ssh"
 sudo apt-get install openssh-server -y
 
 echo "Install Latex"
-sudo apt-get install texlive -y  # pdflatex file.tex
-sudo apt-get install texlive-xetex -y  # xelatex file.tex
-sudo apt-get install texlive-latex-extra -y  # for csquotes, enumitem
-
+sudo apt-get install texlive-full -y  # pdflatex file.tex
 
 # ----------------------------------------
 # GUI Stuff
@@ -34,9 +31,9 @@ sudo apt-get install texlive-latex-extra -y  # for csquotes, enumitem
 echo "Install right click to terminal"
 sudo apt-get install nautilus-open-terminal -y
 
-echo "Install Git GUI"
-sudo apt-get install gitk -y 
-sudo apt-get install git-gui -y 
+# echo "Install Git GUI"
+# sudo apt-get install gitk -y 
+# sudo apt-get install git-gui -y 
 
 echo "Install KeepassX"
 sudo apt-get install keepassx -y
@@ -44,8 +41,8 @@ sudo apt-get install keepassx -y
 echo "Install GVim"
 sudo apt-get install vim-gnome -y
 
-echo "Install Ubnutu Tweak"
-sudo apt-get install unity-tweak-tool -y
+# echo "Install Ubnutu Tweak"
+# sudo apt-get install unity-tweak-tool -y
 
 # ----------------------------------------
 # Python Stack

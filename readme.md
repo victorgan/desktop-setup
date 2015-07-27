@@ -27,6 +27,7 @@ sudo ./install
 create symbolic links
 
 
+### Instructions
 Getting this repository cloned:
 - Create ssh key for github: https://help.github.com/articles/generating-ssh-keys/
   - ssh-keygen -t rsa -C "victorgan@gmail.com"
