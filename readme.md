@@ -89,4 +89,7 @@ Select a proprietary driver
 - List View in Nautilus: Edit>Preferences>View new folders using: List View
 - Install Video Card
   Install NVIDIA video card driver: http://ubuntuforums.org/showthread.php?t=2263316
-- Installing ROS: 
+- Best way to install NVIDIA driver: https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia
+    - System -> Administration -> Additional Drivers
+- Installing ROS: sudo ros.sh
+
