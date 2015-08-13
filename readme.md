@@ -81,7 +81,7 @@ cd ~/code && git clone git@github.com:victorgan/desktop-setup.git
 ### Install NVIDIA Drivers
 https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia
 It should probably be installed already. 
-Go to: Additional Drivers 
+Go to: Additional Drivers (System -> Administration -> Additional Drivers)
 Select a proprietary driver
 
 ### Optional
@@ -89,7 +89,5 @@ Select a proprietary driver
 - List View in Nautilus: Edit>Preferences>View new folders using: List View
 - Install Video Card
   Install NVIDIA video card driver: http://ubuntuforums.org/showthread.php?t=2263316
-- Best way to install NVIDIA driver: https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia
-    - System -> Administration -> Additional Drivers
 - Installing ROS: sudo ros.sh
 
