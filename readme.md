@@ -21,7 +21,7 @@ I try and keep everything to its default whenever possible.
     - plug in a USB and make it a startup disk
 - Restart the computer to reformat, plug in USB, boot from USB
 - Connect to Internet
-- format partition, mount on /
+- format partition, mount on / with ext4 format
 - leave boot drive the same
 - do not enable auto-login
 - follow instructions until restart
