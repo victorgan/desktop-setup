@@ -29,17 +29,21 @@ I try and keep everything to its default whenever possible.
 
 ### Preliminary Instructions
 Getting this repository cloned:
-- install git: sudo apt-get install git
-- Create ssh key for github: https://help.github.com/articles/generating-ssh-keys/
-  - ssh-keygen -t rsa -C "victorgan@gmail.com"
-  - eval "$(ssh-agent -s)"
-  - ssh-add ~/.ssh/id_rsa
-  - Add ssh kkey (copy from ~/.ssh/id_rsa.pub) https://github.com/settings/ssh
-  - ssh -T git@github.com
-- Make ~/code/ directory
-  - mkdir ~/code
-- Clone desktop-setup (this repository): 
-  - cd ~/code && git clone git@github.com:victorgan/desktop-setup.git
+
+# install git
+sudo apt-get install git 
+
+# Create ssh key for github: https://help.github.com/articles/generating-ssh-keys/
+ssh-keygen -t rsa -C "victorgan@gmail.com" # use default location, add a passphrase
+eval "$(ssh-agent -s)" # to check. does not do anything
+ssh-add ~/.ssh/id_rsa
+
+# Add ssh kkey (copy from ~/.ssh/id_rsa.pub) https://github.com/settings/ssh
+ssh -T git@github.com
+
+# make directory and clone
+mkdir ~/code
+cd ~/code && git clone git@github.com:victorgan/desktop-setup.git
 
 ### Basic Programs and Dotfile Settings
 - run: sudo bash ~/code/desktop-setup/programs.sh
