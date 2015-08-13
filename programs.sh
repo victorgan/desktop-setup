@@ -6,8 +6,8 @@
 # Essentials
 # ----------------------------------------
 echo "Updating apt-get"
-# apt-get update -y # takes a while
-# apt-get upgrade -y # takes a while
+apt-get update -y # takes a while
+apt-get upgrade -y # takes a while
 
 echo "Installing Git"
 apt-get install git -y 
@@ -59,14 +59,14 @@ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython
 # ----------------------------------------
 # Haskell Stack
 # ----------------------------------------
-echo "Installing Haskell"
-sudo apt-get install haskell-platform -y
-
-echo "Updating Cabal"
-cabal update && cabal install cabal-install
-
-echo "Haskell Packages: hlint"
-cabal install hlint
+# echo "Installing Haskell"
+# sudo apt-get install haskell-platform -y
+# 
+# echo "Updating Cabal"
+# cabal update && cabal install cabal-install
+# 
+# echo "Haskell Packages: hlint"
+# cabal install hlint
 
 # ----------------------------------------
 # ROS + OpenNI, getting Asus Xtion Pro Live working: https://gist.github.com/victorgan/cbf7e0216e802844198a
