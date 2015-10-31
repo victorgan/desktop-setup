@@ -4,17 +4,6 @@ https://github.com/victorgan/desktop-setup.git
 
 Notes on setting up my desktop.
 
-## Windows
-Steps for backup.
-
-- Move all photos to external hard disk from within lightroom (so the catalogue
-  knows)
-- Copy over the catalogue file, found in: Edit > Catalog Settings
-- Copy over the events folder
-- Copy over video folder
-- Basically copy over any folder in the data/home directory, because that is
-  where I put all data
-
 ## Ubuntu 14.04
 
 This is meant to capture any state changes from a fresh ubuntu install.

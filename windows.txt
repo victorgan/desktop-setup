@@ -1,0 +1,62 @@
+=====================
+Windows Installations
+=====================
+
+2015-10-31 Sat 02:25 PM
+-----------------------
+Steps for Fresh Install.
+- Remove Surface Pro 3 from packaging, turn on, name PC, choose colour
+- Download Updates
+- Pair with Thinkpad Bluetooth Keyboard, which automatically prompts to download another drive (restart required)
+- Pair with Bluetooth Mouse
+- Name: poo (after the Earthbound character, of course)
+- Download windows 10: https://www.microsoft.com/en-us/software-download/windows10
+  - Choose "Not keep anything" (everything will be removed). 
+  - Let it install. It'll say "Installing Windows" "Your PC will restart several times. Sit back and relax."
+  - US/US English/US Keyboard/Pacific Time
+  - Connect to WiFi
+  - Customize Settings -> various privacy settings
+  - Who owns this PC? I own it
+  - Sign in to MS Account, Set up PIN, allow Cortana
+- Various System Settings
+- Download Firefox
+  - Make Default and Sync firefox
+  - Synced firefox: preferences > sync, remove icons after sync
+  - Firefox: prefernces > general > always ask me where to save files
+  - Firefox: prefernces > advanced > general > uncheck smooth scrolling
+- Download Chrome (do not make default)
+- Download Dropbox (advanced settings -> dropbox folder in C:/data/Dropbox)
+- Download Skype
+- Download Keepass, disable scaling Keepass.exe -> right click -> properties -> compatibility -> Disable display scaling on High DPI Settings
+- Download Github
+- Download chocolatey (the -y flag automatically accepts installation)
+choco install vlc -y
+choco install vim -y
+choco install git -y
+choco install windirstat -y
+choco install sumatrapdf -y
+choco install miktex -y 
+choco install steam -y
+choco install f.lux
+choco install emacs
+choco install pandoc
+choco install github
+
+download github repositories: .vim, desktop-setup
+
+Dropbox is located in: c:\data\Dropbox
+Code is located in c:\code\2015
+Code is organized by year of creation.
+
+2015-10-31 Sat 02:25 PM
+-----------------------
+Steps for backup.
+
+- Move all photos to external hard disk from within lightroom (so the catalogue
+  knows)
+- Copy over the catalogue file, found in: Edit > Catalog Settings
+- Copy over the events folder
+- Copy over video folder
+- Basically copy over any folder in the data/home directory, because that is
+  where I put all data
+
