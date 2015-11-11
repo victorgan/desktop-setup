@@ -42,9 +42,9 @@ choco install emacs
 choco install pandoc
 choco install github
 choco install strawberryperl
-
+choco install powershellhere 
+enable hyper-v through "turn windows features on and off"
 download github repositories: .vim, desktop-setup
-
 Dropbox is located in: c:\data\Dropbox
 Code is located in c:\code\2015
 Code is organized by year of creation.
