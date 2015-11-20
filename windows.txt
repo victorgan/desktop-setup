@@ -15,6 +15,10 @@ Configuration steps on a new HP. Customizing to my liking.
   - options > search > Google as default search engine
   - options > advanced > general > uncheck smooth scrolling
   - new tab > new tab controls > show blank page
+- Remove start menu items
+- Apply settings from windows UI as seen in 151120-windows-install folder
+- Clone github.com/victorgan/.vim, and create a hard link to that folder (see README)
+
 2015-11-20 Fri 10:30 AM
 -----------------------
 Installation steps on a new HP Z440
