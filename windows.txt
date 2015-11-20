@@ -48,6 +48,7 @@ download github repositories: .vim, desktop-setup
 Dropbox is located in: c:\data\Dropbox
 Code is located in c:\code\2015
 Code is organized by year of creation.
+Timesnapper Classic: http://www.timesnapper.com/downloads/TimeSnapperClassicSetup.exe
 
 2015-10-31 Sat 02:25 PM
 -----------------------
