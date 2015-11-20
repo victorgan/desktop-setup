@@ -2,9 +2,33 @@
 Windows Installations
 =====================
 
+2015-11-20 Fri 10:30 AM
+-----------------------
+Installation steps on a new HP Z440
+- Unwrap the PC. Plug in a monitor, mouse, keyboard and a connected ethernet cable.
+- Boot up and spam Esc to enter BIOS, and boot to network drive. F2/F10/F12 are other options to spam.
+  - If you get an issue where you can't click "Boot to Network", restart your computer, click Esc to boot to BIOS, and boot to network
+- Boot to Network, IPv4
+- Choose the default selected Windows Image (the first one, with office 2016)
+- Confirm Identity: alias is just X, where X is X@microsoft.com (no REDMOND\)
+- Choose Windows 10 (64-Bit)
+- Computer Name: I use VIGAN-3-1013, where VIGAN is my alias, 3 is my building and 1013 is my office.
+- If you run into a problem where it doesn't find any disks:
+  - Deployment Readiness: TPM on this machine is not enabled. Bitlocker will not be enabled on this machine.
+    Or, open up your PC and  - No partition founod (either your device does not have a fixed disk or we do not havea driver for it)
+  - This error happens because there is one SATA controller with 2 ports and one eSATA controller with 3 ports. Only the SATA controller is enabled for network boot, and none of your drives are on those 2 ports. Call tech support. Or, open up your PC and move the SSD drive's (your desired OS drive) SATA port from the rightmost gray eSATA port to the bottom-most black SATA port on the vertical side.
+- Keep existing partitions during installation? No
+  - Verify your SSD size is what's shown.
+- New password for the local administrator account: put this in your password manager
+- It will take around half an hour to install. When done, you should get a screen saying 'Deployment completed successfully :)"
+- When I booted in, the two hard drive disks were not detected. 
+  - I changed the BIOS to the default settings; it didn't do much.
+  - It looks like no RAID Controller is installed, and both the SATA and eSATA controllers were set to RAID (as opposed to AHCI or IDE)
+  - I set the eSATA controller to AHCI in the BIOS. On Reboot, the new drives are visible. I then set the SATA controller to AHCI as well.
+  
 2015-10-31 Sat 02:25 PM
 -----------------------
-Steps for Fresh Install.
+Steps for Fresh Install on an SP3.
 - Remove Surface Pro 3 from packaging, turn on, name PC, choose colour
 - Download Updates
 - Pair with Thinkpad Bluetooth Keyboard, which automatically prompts to download another drive (restart required)
