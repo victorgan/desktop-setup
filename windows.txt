@@ -9,7 +9,12 @@ Configuration steps on a new HP. Customizing to my liking.
 - Install Windows Azure Bootstrapper (based on Chocolatey), via internal procedure This installs Git.
 - Open an ADMINISTRATIVE cmd prompt:
   choco install firefox vlc vim windirstat sumatrapdf.install miktex emacs pandoc github sourcetree strawberryperl powershellhere keepass-classic google-chrome-x64 -y
-
+- Firefox:
+  - Synced firefox: preferences > sync, remove icons after sync
+  - options > general > always ask me where to save files
+  - options > search > Google as default search engine
+  - options > advanced > general > uncheck smooth scrolling
+  - new tab > new tab controls > show blank page
 2015-11-20 Fri 10:30 AM
 -----------------------
 Installation steps on a new HP Z440
@@ -22,7 +27,7 @@ Installation steps on a new HP Z440
 - Choose Windows 10 (64-Bit)
 - Computer Name: I use VIGAN-3-1013, where VIGAN is my alias, 3 is my building and 1013 is my office.
 - If you run into a problem where it doesn't find any disks:
-  - Deployment Readiness: TPM on this machine is not enabled. Bitlocker will not be enabled on this machine.
+  - Deployment Readiness: TPM on this machine is not enabled. Bitlockefr will not be enabled on this machine.
     Or, open up your PC and  - No partition founod (either your device does not have a fixed disk or we do not havea driver for it)
   - This error happens because there is one SATA controller with 2 ports and one eSATA controller with 3 ports. Only the SATA controller is enabled for network boot, and none of your drives are on those 2 ports. Call tech support. Or, open up your PC and move the SSD drive's (your desired OS drive) SATA port from the rightmost gray eSATA port to the bottom-most black SATA port on the vertical side.
 - Keep existing partitions during installation? No
