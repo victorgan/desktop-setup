@@ -6,9 +6,10 @@ Windows Installations
 -----------------------
 Configuration steps on a new HP. Customizing to my liking.
 
-- Install Windows Azure Bootstrapper (based on Chocolatey), via internal procedure This installs Git.
+- Install Windows Azure Bootstrapper (based on Chocolatey), via internal
+  procedure This installs Git and Chocolatey.
 - Open an ADMINISTRATIVE cmd prompt:
-  choco install firefox vlc vim windirstat sumatrapdf.install miktex emacs pandoc github sourcetree strawberryperl powershellhere keepass-classic google-chrome-x64 -y
+  choco install firefox vlc vim windirstat sumatrapdf.install miktex emacs pandoc github sourcetree strawberryperl powershellhere keepass-classic google-chrome-x64
 - Firefox:
   - Synced firefox: preferences > sync, remove icons after sync
   - options > general > always ask me where to save files
