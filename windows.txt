@@ -2,6 +2,16 @@
 Windows Installations
 =====================
 
+2015-11-20 Fri 10:55 AM
+-----------------------
+Configuration steps on a new HP. Customizing to my liking.
+
+- Install Windows Azure Bootstrapper (based on Chocolatey), via internal procedure This installs Git.
+- Open an ADMINISTRATIVE cmd prompt:
+  choco install firefox vlc vim windirstat sumatrapdf miktex emacs pandoc github sourcetree strawberryperl powershellhere keepass-classic -
+  choco install google-chrome-x64 -y
+
+
 2015-11-20 Fri 10:30 AM
 -----------------------
 Installation steps on a new HP Z440
@@ -25,6 +35,9 @@ Installation steps on a new HP Z440
   - I changed the BIOS to the default settings; it didn't do much.
   - It looks like no RAID Controller is installed, and both the SATA and eSATA controllers were set to RAID (as opposed to AHCI or IDE)
   - I set the eSATA controller to AHCI in the BIOS. On Reboot, the new drives are visible. I then set the SATA controller to AHCI as well.
+  - Enable Bitlocker
+  - Open Skype for Business
+  - Open Outlook
   
 2015-10-31 Sat 02:25 PM
 -----------------------
