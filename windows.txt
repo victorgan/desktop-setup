@@ -20,6 +20,15 @@ Configuration steps on a new HP. Customizing to my liking.
 - Apply settings from windows UI as seen in 151120-windows-install folder
 - Clone github.com/victorgan/.vim, and create a hard link to that folder (see README)
 - Download Postman in chrome
+- Pin to taskbar to allow Windows + # shortcuts:
+1 Firefox
+2 Vim
+3 Explorer
+- Copy and paste Outlook 2016 shortcut from 
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+to
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+- Add SSH Keys to Bitbucket and Github
 
 2015-11-20 Fri 10:30 AM
 -----------------------
