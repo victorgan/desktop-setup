@@ -19,6 +19,7 @@ Configuration steps on a new HP. Customizing to my liking.
 - Remove start menu items
 - Apply settings from windows UI as seen in 151120-windows-install folder
 - Clone github.com/victorgan/.vim, and create a hard link to that folder (see README)
+- Download Postman in chrome
 
 2015-11-20 Fri 10:30 AM
 -----------------------
