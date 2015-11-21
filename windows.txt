@@ -95,9 +95,9 @@ choco install steam -y
 choco install f.lux
 choco install emacs
 choco install pandoc
-choco install github
 choco install strawberryperl
 choco install powershellhere 
+choco install sourcetree
 enable hyper-v through "turn windows features on and off"
 download github repositories: .vim, desktop-setup
 Dropbox is located in: c:\data\Dropbox
