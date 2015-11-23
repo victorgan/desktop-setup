@@ -30,6 +30,8 @@ to
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 - Add SSH Keys to Bitbucket and Github
 - Uninstalled github. Only use sourcetree!
+- Install Dropbox
+- Install vsvim
 
 2015-11-20 Fri 10:30 AM
 -----------------------
