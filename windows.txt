@@ -9,7 +9,7 @@ Configuration steps on a new HP. Customizing to my liking.
 - Install Windows Azure Bootstrapper (based on Chocolatey), via internal
   procedure This installs Git and Chocolatey.
 - Open an ADMINISTRATIVE cmd prompt:
-  choco install firefox vlc vim windirstat sumatrapdf.install miktex emacs pandoc github sourcetree strawberryperl powershellhere keepass-classic google-chrome-x64
+  choco install firefox vlc vim windirstat sumatrapdf.install miktex emacs pandoc sourcetree strawberryperl powershellhere keepass-classic google-chrome-x64
 - Firefox:
   - Synced firefox: preferences > sync, remove icons after sync
   - options > general > always ask me where to save files
@@ -29,6 +29,7 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 to
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 - Add SSH Keys to Bitbucket and Github
+- Uninstalled github. Only use sourcetree!
 
 2015-11-20 Fri 10:30 AM
 -----------------------
