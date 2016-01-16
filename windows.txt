@@ -1,8 +1,17 @@
 =====================
 Windows Installations
-=====================
+====================
+2016-01-16 Sat 12:05 AM
+-----------------------
+Firefox is running slow. Refresh and don't sync.
+    - Remove icons
+    - Install:
+        - Vimfx
+        - Private Tab
+        - Adblock Plus
 
-2015-11-20 Fri 10:55 AM
+
+2015-11-20 fri 10:55 am
 -----------------------
 Configuration steps on a new HP. Customizing to my liking.
 
@@ -24,7 +33,7 @@ Configuration steps on a new HP. Customizing to my liking.
 1 Firefox
 2 Vim
 3 Explorer
-- Copy and paste Outlook 2016 shortcut from 
+- Copy and paste Outlook 2016 shortcut from
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 to
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
@@ -49,14 +58,14 @@ Installation steps on a new HP Z440
   - Verify your SSD size is what's shown.
 - New password for the local administrator account: put this in your password manager
 - It will take around half an hour to install. When done, you should get a screen saying 'Deployment completed successfully :)"
-- When I booted in, the two hard drive disks were not detected. 
+- When I booted in, the two hard drive disks were not detected.
   - I changed the BIOS to the default settings; it didn't do much.
   - It looks like no RAID Controller is installed, and both the SATA and eSATA controllers were set to RAID (as opposed to AHCI or IDE)
   - I set the eSATA controller to AHCI in the BIOS. On Reboot, the new drives are visible. I then set the SATA controller to AHCI as well.
   - Enable Bitlocker
   - Open Skype for Business
   - Open Outlook
-  
+
 2015-10-31 Sat 02:25 PM
 -----------------------
 Steps for Fresh Install on an SP3.
@@ -66,7 +75,7 @@ Steps for Fresh Install on an SP3.
 - Pair with Bluetooth Mouse
 - Name: poo (after the Earthbound character, of course)
 - Download windows 10: https://www.microsoft.com/en-us/software-download/windows10
-  - Choose "Not keep anything" (everything will be removed). 
+  - Choose "Not keep anything" (everything will be removed).
   - Let it install. It'll say "Installing Windows" "Your PC will restart several times. Sit back and relax."
   - US/US English/US Keyboard/Pacific Time
   - Connect to WiFi
@@ -90,20 +99,40 @@ choco install vim -y
 choco install git -y
 choco install windirstat -y
 choco install sumatrapdf -y
-choco install miktex -y 
+choco install miktex -y
 choco install steam -y
 choco install f.lux
-choco install emacs
 choco install pandoc
 choco install strawberryperl
-choco install powershellhere 
-choco install sourcetree
+choco install powershellhere
+choco install adobereader
 enable hyper-v through "turn windows features on and off"
 download github repositories: .vim, desktop-setup
 Dropbox is located in: c:\data\Dropbox
 Code is located in c:\code\2015
 Code is organized by year of creation.
 Timesnapper Classic: http://www.timesnapper.com/downloads/TimeSnapperClassicSetup.exe
+
+Github's Windows client is too basic. Use sourcetree instead
+choco install sourcetree
+
+Chocolatey's emacs client opens a terminal everytime it's run. Instead download
+windows binaries that support images, as recommended by the spacemac's guide.
+choco uninstall emacs
+http://emacsbinw64.sourceforge.net/
+http://sourceforge.net/projects/emacsbinw64/
+Download, extract with 7zip to C:\Program Files\emacs. Then create a start menu
+shortcut of emacs\bin\runemacs.exe in
+C:\Users\vctrg\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+by alt dragging it in explorer.
+Add an environment variable %HOME% to be C:\Users\vctrg\
+Install spacemacs by creating a hard link between C:\Users\vctrg\.emacs.d and a
+cloned folder of the spacemacs repository.
+Choose VIM-style and standard distribution
+
+choco install 7zip. Associate .7z files with 7 zip file manager (not GUI)
+
+
 
 2015-10-31 Sat 02:25 PM
 -----------------------
@@ -116,4 +145,3 @@ Steps for backup.
 - Copy over video folder
 - Basically copy over any folder in the data/home directory, because that is
   where I put all data
-
