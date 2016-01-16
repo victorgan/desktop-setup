@@ -18,7 +18,7 @@ Configuration steps on a new HP. Customizing to my liking.
 - Install Windows Azure Bootstrapper (based on Chocolatey), via internal
   procedure This installs Git and Chocolatey.
 - Open an ADMINISTRATIVE cmd prompt:
-  choco install firefox vlc vim windirstat sumatrapdf.install miktex emacs pandoc github sourcetree strawberryperl powershellhere keepass-classic google-chrome-x64
+  choco install firefox vlc vim windirstat sumatrapdf.install miktex emacs pandoc sourcetree strawberryperl powershellhere keepass-classic google-chrome-x64
 - Firefox:
   - Synced firefox: preferences > sync, remove icons after sync
   - options > general > always ask me where to save files
@@ -38,6 +38,19 @@ C:\ProgramData\Microsoft\Windows\Start Menu\Programs
 to
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 - Add SSH Keys to Bitbucket and Github
+- Uninstalled github. Only use sourcetree!
+- Install Dropbox
+- Install shotty, screenshot tool. Sort of unintuitive to use.
+- Visual Studio extensions:
+    - VsVim
+       - CTRL + ALT + L: let visual studio take control instead of vim (focus solution explorer)
+    - RelativeLineNumbers. Change relativelinenumber's colours
+    - Node JS https://github.com/Microsoft/nodejstools/releases/tag/v1.1
+    - Typescript Tools 1.4 https://visualstudiogallery.msdn.microsoft.com/2d42d8dc-e085-45eb-a30b-3f7d50d55304
+    - Install WebDeployment Tools 2.1 (X64) http://technet.microsoft.com/en-us/library/dd569059(v=WS.10).aspx
+    - Productivity Power Tools
+CTRL+ALT+L: focus solution explorer
+Esc: focus document window
 
 2015-11-20 Fri 10:30 AM
 -----------------------
