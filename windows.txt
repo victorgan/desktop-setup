@@ -1,6 +1,37 @@
 =====================
 Windows Installations
 =====================
+2016-02-11 Thu 08:48 AM
+On work Z440:
+install the platinum searcher
+choco install pt
+Hm. it doesn't run. Uninstalled. I'll stick with grep.
+
+Install NodeJS:
+choco install nodejs.install
+
+C# REPL:
+choco install scriptcs
+To run, in the command line type:
+scriptcs
+
+I installed visual studio code, by hand (the chocolatey package was out of date)
+http://www.strathweb.com/2015/11/running-c-scripts-and-snippets-in-visual-studio-code-with-scriptcs/
+
+I'm installing visual studio 2015.
+
+install fiddler
+choco install fiddler4
+Perhaps also install wireshark
+
+Visual studio settings:
+- Options > Environment > Documents > Check "auto-load changes, if saved"
+
+2016-02-02 Tue 10:20 AM
+-----------------------
+choco install consolez
+a great console
+top open: start button > console
 
 2015-11-20 Fri 10:55 AM
 -----------------------
