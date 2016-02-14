@@ -1,6 +1,12 @@
 =====================
 Windows Installations
 ====================
+2016-02-13 Sat 04:20 PM
+-----------------------
+On surface pro 3
+choco install putty
+
+
 2016-01-16 Sat 12:05 AM
 -----------------------
 Firefox is running slow. Refresh and don't sync.
