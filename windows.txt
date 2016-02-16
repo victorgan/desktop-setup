@@ -1,6 +1,10 @@
 =====================
 Windows Installations
 ====================
+2016-02-16 Tue 12:18 PM
+On Z440:
+choco install flashplayerplugin
+
 2016-02-13 Sat 04:20 PM
 -----------------------
 On surface pro 3
