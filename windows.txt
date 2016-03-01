@@ -1,9 +1,53 @@
 =====================
 Windows Installations
 ====================
+2016-03-01 Tue 12:03 PM
+on z440:
+choco install virtualbox 
+
+2016-02-24 Wed 01:55 PM
+on z440:
+choco install kdiff3
+
+2016-02-23 Tue 11:54 AM
+Install Gyazo
+images: Ctrl + Shift + C
+videos: Ctrl + Shift + G
+
+2016-02-23 Tue 11:18 AM
+Installing emacs on Z440. Following instructions from 2015-10-31 Sat 02:25 PM
+
+Chocolatey's emacs client opens a terminal everytime it's run. Instead download
+windows binaries that support images, as recommended by the spacemac's guide.
+choco uninstall emacs
+http://emacsbinw64.sourceforge.net/
+http://sourceforge.net/projects/emacsbinw64/
+Download, extract with 7zip to C:\Program Files\emacs. Then create a start menu
+shortcut of emacs\bin\runemacs.exe in
+C:\Users\vigan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+by alt dragging it in explorer.
+Add an environment variable %HOME% to be C:\Users\vigan\
+    - search environment in start
+    - put value as HOME, without %'s
+    - check in command prompt: echo %HOME%
+Install spacemacs by creating a hard link between C:\Users\vctrg\.emacs.d and a
+cloned folder of the spacemacs repository.
+Choose VIM-style and standard distribution
+
+From: http://magit.vc/manual/magit/Installing-from-an-Elpa-archive.html#Installing-from-an-Elpa-archive
+Once you have added your preferred archive, you need to update the local package list using:
+M-x package-refresh-contents RET
+Once you have done that, you can install Magit and its dependencies using:
+M-x package-install RET magit RET
+
+(M is alt)
+
 2016-02-16 Tue 12:18 PM
 On Z440:
 choco install flashplayerplugin
+choco install 7zip.install
+- associate 7zip files with 7zipFM (NOT 7zipG)
+    - filemanager, not GUI
 
 2016-02-13 Sat 04:20 PM
 -----------------------
