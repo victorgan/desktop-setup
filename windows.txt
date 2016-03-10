@@ -6,6 +6,9 @@ on z440:
 choco install clover
 
 clover is tabbed file explorer
+Ctrl + T for new tab
+Ctrl + W to close tab
+Ctrl + Tab to cycle through tabs
 
 2016-03-01 Tue 12:03 PM
 on z440:
