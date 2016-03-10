@@ -1,6 +1,12 @@
 =====================
 Windows Installations
 ====================
+2016-03-10 Thu 01:34 PM
+on z440:
+choco install clover
+
+clover is tabbed file explorer
+
 2016-03-01 Tue 12:03 PM
 on z440:
 choco install virtualbox 
