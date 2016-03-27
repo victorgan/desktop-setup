@@ -104,6 +104,17 @@ Firefox is running slow. Refresh and don't sync.
         - Vimfx
         - Private Tab
         - Adblock Plus
+- Firefox:
+  - options > general > always ask me where to save files
+  - options > search > Google as default search engine
+  - options > security > uncheck Remember logins for sites
+  - new tab > new tab controls > show blank page
+- type about:config
+browser.tabs.animate : false
+network.http.pipelining : true
+
+Previously had, but not anymore:
+  - options > advanced > general > uncheck smooth scrolling
 
 2015-11-20 fri 10:55 am
 -----------------------
