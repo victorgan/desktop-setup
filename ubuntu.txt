@@ -46,6 +46,7 @@ Touchpad pointer speed > around 3/4 of the way to fast
 sudo apt-get install unity-tweak-tool
 Launcher > check minimize single window applications on click
 Launcher > transparency level max
+Fonts > Default: Roboto Regular 11, Monospace Font: DejaVu Sans Mono Book 11, Document font: Roboto Regular 11, Window title font: Roboto Medium 11, Hinting: Full, text scaling factor: 1
 
 
 
