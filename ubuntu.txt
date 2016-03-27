@@ -18,6 +18,7 @@ Preferences > General > Always ask me where to save files
   - options > search > Google as default search engine
   - options > security > uncheck Remember logins for sites
   - new tab > new tab controls > show blank page
+  - options > advances > check autoscrolling (allows middle button click to scroll)
 - type about:config
 browser.tabs.animate : false
 network.http.pipelining : true
