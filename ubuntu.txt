@@ -1,0 +1,12 @@
+Ubuntu
+
+2016-03-27
+16.04 Preview
+
+Lock terminal to launcher
+Unlock amazon and office apps from launcher
+
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install git vim emacs openssh-server texlive-full keepassx nautilus-dropbox -y
