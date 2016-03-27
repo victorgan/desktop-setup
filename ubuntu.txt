@@ -37,7 +37,7 @@ Appearance
 Behavior > Enable Workspaces
 Behavior > show menus for a window in the window's title bar
 Look > Theme Radiance
-Look > Launcher Icon size 36
+Look > Launcher Icon size 32
 
 Mouse and touchpad
 enable Natural Scrolling
@@ -47,6 +47,7 @@ uncheck tap to click
 sudo apt-get install unity-tweak-tool
 Launcher > check minimize single window applications on click
 Launcher > transparency level max
+Panel > Date and Time > Include Date
 Fonts > Default: Roboto Regular 11, Monospace Font: DejaVu Sans Mono Book 11, Document font: Roboto Regular 11, Window title font: Roboto Medium 11, Hinting: Full, text scaling factor: 1
 
 
