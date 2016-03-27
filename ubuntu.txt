@@ -42,6 +42,7 @@ Look > Launcher Icon size 36
 Mouse and touchpad
 enable Natural Scrolling
 Touchpad pointer speed > around 3/4 of the way to fast
+uncheck tap to click
 
 sudo apt-get install unity-tweak-tool
 Launcher > check minimize single window applications on click
