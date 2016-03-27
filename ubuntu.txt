@@ -10,3 +10,17 @@ sudo apt-get update
 sudo apt-get upgrade
 
 sudo apt-get install git vim emacs openssh-server texlive-full keepassx nautilus-dropbox -y
+
+firefox
+- install vimfx, private tab, ublock origin
+Preferences > General > show my windows and tabs from last time
+Preferences > General > Always ask me where to save files
+  - options > search > Google as default search engine
+  - options > security > uncheck Remember logins for sites
+  - new tab > new tab controls > show blank page
+- type about:config
+browser.tabs.animate : false
+network.http.pipelining : true
+
+Displays
+scale for menu and title bars: 1.5
