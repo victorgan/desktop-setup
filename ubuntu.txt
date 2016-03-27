@@ -24,3 +24,13 @@ network.http.pipelining : true
 
 Displays
 scale for menu and title bars: 1.5
+
+Appearance
+Behavior > Enable Workspaces
+Behavior > show menus for a window in the window's title bar
+Look > Theme Radiance
+Look > Launcher Icon size 36
+
+Mouse and touchpad
+enable Natural Scrolling
+Touchpad pointer speed > around 3/4 of the way to fast
