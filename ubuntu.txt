@@ -50,10 +50,20 @@ enable Natural Scrolling
 Touchpad pointer speed > around 3/4 of the way to fast
 uncheck tap to click
 
+sudo apt-get install numix-gtk-theme
+sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
+
 sudo apt-get install unity-tweak-tool
 Launcher > transparency level max
 Panel > Date and Time > Include Date
+Theme > Numix
+Icons > Numix-circle
 Fonts > Default: Roboto Regular 11, Monospace Font: DejaVu Sans Mono Book 11, Document font: Roboto Regular 11, Window title font: Roboto Medium 11, Hinting: Full
+Hotcorners > Bottom left corner: Spread all Windows
+
+sudo apt-get update && sudo apt-get install my-weather-indicator
 
 
 
