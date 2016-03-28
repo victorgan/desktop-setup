@@ -67,6 +67,6 @@ sudo apt-get update && sudo apt-get install my-weather-indicator
 
 
 Keyboard
-shortcuts > change ctrl + alt + arrow key to ctrl + alt hjkl for workspace navigation, ditto for shift + ctrl + alt
+shortcuts > navigation > change ctrl + alt + arrow key to ctrl + alt hjkl for workspace navigation, ditto for shift + ctrl + alt
 this overrides ctrl + alt + l for lock screen, which I remap to super (windows key) + l
-
+shortcuts > launchers > disable key to show the HUD
