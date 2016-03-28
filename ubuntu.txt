@@ -70,3 +70,6 @@ Keyboard
 shortcuts > navigation > change ctrl + alt + arrow key to ctrl + alt hjkl for workspace navigation, ditto for shift + ctrl + alt
 this overrides ctrl + alt + l for lock screen, which I remap to super (windows key) + l
 shortcuts > launchers > disable key to show the HUD
+
+Disable right click on bottom-right trackpad quadrant
+http://kernpanik.com/geekstuff/2015/01/12/disable-rightclick-synaptics.html
