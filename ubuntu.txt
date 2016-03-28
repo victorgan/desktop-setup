@@ -66,4 +66,7 @@ Hotcorners > Bottom left corner: Spread all Windows
 sudo apt-get update && sudo apt-get install my-weather-indicator
 
 
+Keyboard
+shortcuts > change ctrl + alt + arrow key to ctrl + alt hjkl for workspace navigation, ditto for shift + ctrl + alt
+this overrides ctrl + alt + l for lock screen, which I remap to super (windows key) + l
 
