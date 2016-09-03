@@ -1,3 +1,9 @@
+2016-09-03 Sat 12:03 PM
+In firefox:
+layout.css.devPixelsPerPx
+Change from -1.0 to 1.5
+(since dpi scaling is 1.5)
+
 Ubuntu
 
 2016-03-27
