@@ -1,6 +1,33 @@
 =====================
 Windows Installations
 ====================
+2017-02-28 Tue 01:02 AM
+on VM
+
+- Install Chocolatey
+    - chocolately.org/install
+    - in powershell, Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+- Following
+choco install firefox vlc vim -y
+choco install keepass-y
+choco install git sumatrapdf -y
+choco install 7zip.install flashplayerplugin sourcetree -y
+- Not working
+choco install googlechrome -y
+choco install clover -y
+-Firefox
+    - Remove icons
+    - Install:
+        - Vimfx
+        - Private Tab
+        - Adblock Plus
+  - options > general > always ask me where to save files
+  - options > search > Google as default search engine
+  - options > security > uncheck Remember logins for sites
+  - new tab > new tab controls > show blank page
+- Remove start menu items
+- bunch of visual tweaks
+
 2016-03-10 Thu 01:34 PM
 on z440:
 choco install clover
