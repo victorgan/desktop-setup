@@ -1,0 +1,12 @@
+Download Firefox/Keepass/Chrome from software center + vimium
+
+Install vim and git
+sudo apt-install vim-gtk3
+sudo apt-get install git 
+
+Add github ssh key
+
+Add vimrc
+
+Install gnome tweak tool and fonts: san fransisco + inconsolata
+sudo apt-get install numix-gtk-theme
